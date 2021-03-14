@@ -5,6 +5,10 @@ body {
     background-size: cover;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 60px;
+}
 
 li {
  background-color: #111;
