@@ -6,6 +6,18 @@ body {
     text-align: center; 
 }
 
+h1 {
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+p {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 40px;
+}
 
 li {
  background-color: #111;
