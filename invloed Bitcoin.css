@@ -6,8 +6,9 @@ body {
 }
 
 h1 {
-  margin-top: 60px;
+  margin-top: 80px;
   text-align: center;
+  font-size: 40px;
 }
 
 li {
@@ -44,5 +45,5 @@ li a:hover:not(.active) {
 
 li a.active {
   color: white;
-  background-color: #4CAF50;
+  background-color: rgb(4, 4, 71);
 }
