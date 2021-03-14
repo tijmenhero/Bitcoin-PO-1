@@ -1,5 +1,8 @@
 body {
-  background-color: black
+ background-image:  url("images/blockchain.jpg");
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 input[type=text], select, textarea {
@@ -8,8 +11,8 @@ input[type=text], select, textarea {
   border: 1px solid #cccccc; 
   border-radius: 4px; 
   box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
+  margin-top: 25px; 
+  margin-bottom: 10px; 
   resize: vertical 
 }
 
@@ -24,18 +27,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-image:  url("images/blockchain.jpg");
-  background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 95%;
-    height: 95%;
-    border: 2px dashed #333;
-  padding: 20px;
 }
 
 li {
