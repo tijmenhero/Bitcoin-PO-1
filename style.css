@@ -3,13 +3,13 @@ body {
   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    text-align: center; 
+    text-align: center;
     margin: 0;
 }
 
 h1 {
   font-size: 40px;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 p {
@@ -62,4 +62,10 @@ ul.topnav li.right {
    width: 800px;
    background-color: rgb(182, 224, 219);
    border-radius: 15px;
+}
+
+.center {
+  margin: auto;
+  width: 800px;
+  padding: 10px;
 }
