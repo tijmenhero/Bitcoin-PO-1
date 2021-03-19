@@ -4,6 +4,7 @@ body {
  background-position: center;
  background-size: cover; 
  text-align: center;
+ margin: 0;
 }
 
 h1 {
@@ -15,6 +16,7 @@ h1 {
 table {
   width:700px;
 }
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -23,23 +25,27 @@ th, td {
   padding: 15px;
   text-align: left;
 }
+
 #t01 tr:nth-child(even) {
   background-color: #eee;
 }
+
 #t01 tr:nth-child(odd) {
  background-color: #fff;
 }
+
 #t01 th {
   background-color: black;
   color: white;
 }
+
+ul.opmaak {
+  list-style-type: square;
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
-}
-
-body {
-margin: 0;
 }
 
 ul.topnav {
