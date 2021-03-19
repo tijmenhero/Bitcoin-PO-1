@@ -52,6 +52,23 @@ ul.topnav li.right {
   ul.topnav li {float: none;}
 }
 
-article {
-  
+.center {
+  background-color: rgb(182, 224, 219);
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+p{
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .center {
+    width: 100%;
+  }
+  p {
+    font-size: 20px;
+  }
 }
