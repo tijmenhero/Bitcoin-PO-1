@@ -20,14 +20,6 @@ h2 {
   font-size: 40px;
 }
 
-body {
-  background-image: url("images/blockchain.jpg");
-  background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 0;
-}
-
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -74,7 +66,7 @@ ul.topnav li.right {
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
   .center {
     width: 100%;
   }
